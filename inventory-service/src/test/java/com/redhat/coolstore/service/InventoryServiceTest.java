@@ -22,7 +22,7 @@ import org.mockito.stubbing.Answer;
 
 import com.redhat.coolstore.model.Inventory;
 
-//@Ignore
+@Ignore
 @RunWith(MockitoJUnitRunner.class)
 public class InventoryServiceTest {
 	@Mock private EntityManager em;
